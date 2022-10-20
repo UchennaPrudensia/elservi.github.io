@@ -1,0 +1,17 @@
+/* ===================================================================== 
+   Practice CSS Grid Layout
+======================================================================== */
+
+/* Target the grid container */
+.main-content {
+  width: 100%;
+  max-width: 1000px;
+  
+  /* Turn on the grid */
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  
+ 
+  grid-gap: 5px;
+}
